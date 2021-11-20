@@ -8,7 +8,7 @@
 </p> 
 
 ## What is MagpieBridge?
-MagpieBridge is a framework for integrating Static Analyses into IDEs and Editors with the [Language Server Protocol](https://microsoft.github.io/language-server-protocol/specification). MagpieBridge is not limited to LSP, it also leverages the HTTP protocol to allow displaying web pages inside an IDE. This enables a new level of supporting visualization and [customizable UI](https://github.com/MagpieBridge/MagpieBridge/wiki/Tutorial-5.-MagpieServer-Configuration-Explained) for user to interact with.
+MagpieBridge is a framework for integrating Static Analyses into IDEs and Editors with the [Language Server Protocol](https://microsoft.github.io/language-server-protocol/specification). MagpieBridge is not limited to LSP, it also leverages the HTTP to allow displaying web pages inside an IDE. This enables a new level of supporting visualization and [customizable UI](https://github.com/MagpieBridge/MagpieBridge/wiki/Tutorial-5.-MagpieServer-Configuration-Explained) for user to interact with.
 MagpieBridge is a bridge between program analyses and developer tools. MagpieBridge offers an extensible implementation of a language server---`MagpieServer` which runs analysis; a default TextDocumentService--`MagpieTextDocumentService` which handles common LSP requests; a default WorkspaceService--`MagpieWorkspaceService` which handles different kinds of code actions and many other useful APIs for static analysis; and resuable [Project Services](https://github.com/MagpieBridge/MagpieBridge/wiki/Tutorial-10.-ProjectService-Explained) that resolve project scope (source code path, library code path, class path etc.) which can be consumed by whole program analyses. Find more information in the following:
 
 - There is a [talk](https://youtu.be/6MLlOEsPW1k) at SOAP 2020 about MagpieBridge, the slides of the talk can be found [here](https://github.com/linghuiluo/linghuiluo.github.io/blob/master/soap-talk.pdf).
@@ -74,6 +74,7 @@ The old versions till 0.0.9 of MagpieBridge were published on the GitHub Package
 - [Check the tutorials to create your first project with MagpieBridge](https://github.com/MagpieBridge/MagpieBridge/wiki) :star2:**UPDATED**:star2: 
 
 ## Integrated Static Analyses using MagpieBridge
+- [SecuCheck](https://secucheck.github.io)
 - [MagpieBridge-based Facebook Infer](https://github.com/MagpieBridge/InferIDE)
 - [MagpieBridge-based CogniCrypt](https://github.com/MagpieBridge/CryptoLSPDemo)
 - [MagpieBridge-based FlowDroid](https://github.com/MagpieBridge/FlowDroidLSPDemo)
